@@ -38,72 +38,69 @@
             font-size: 32px;
         }
 
-        a:link { color: black }
-        a:visited { color: black; }
-        a:hover { color: black; }
-        a:active { color: black; }
-		
-	* {
-  box-sizing: border-box;
-}
+	header {
+	float: left;
+	}
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
+	nav {
+	float: right;
+	}
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-		
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
+	nav ul {
+	list-style: none;
+	padding-top: 18px;
+	}
 
-	
-.topnav {
-  background-color: transparent;
-  overflow: hidden;
-}
+	nav ul li {
+	display: inline-block;
+	margin-right: 5px;
+	}	
 
-.topnav a {
-  float: right;
-  display: block;
-  color: #adadae;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+	.fa {
+	  padding: 10px;
+	  font-size: 30px;
+	  width: 50px;
+	  text-align: left;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+	.fa:hover {
+	    opacity: 0.7;
+	}
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+	.fa-solid fa-envelope {
+	  background: #FFFFFF;
+	  color: black;
+	}
 
-.topnav .icon {
-  display: none;
-}
+	.fa-linkedin {
+	  background: #FFFFFF;
+	  color: black;
+	}	
+	    </style>
+	</head>
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-	
-    </style>
-</head>
 
 <body>
 
-<img src="kep-logo.png" alt="Karina Palmitesta" style="float:left">						       
+<div class="container">
+<header>
+<h1>Karina Palmitesta</h1>
+<h2>Copywriter</h2>	
+</header>
+
+        <nav class="navbar">
+            <ul>
+                <li>About</li>
+		<li>Work</li>
+            </ul>
+        </nav>
+        </div>
+
+
 	 
 </body>
 </html>
+
+
