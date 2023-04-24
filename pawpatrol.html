@@ -36,6 +36,22 @@ img {
 
 </style>
 
+<script>
+  var theSecretPassword = '6370';
+  var whatTheUserTyped = prompt("Enter password");
+  
+  if (whatTheUserTyped == theSecretPassword) {
+    // continue loading the page and show the content
+    
+  }
+  else {
+    // tell the user they typed the wrong password
+    alert("Wrong password!");
+    // redirect to somewhere else
+    window.location.replace("index.html");
+  }
+</script>
+
 </head>
 
 
